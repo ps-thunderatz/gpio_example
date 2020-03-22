@@ -4,7 +4,8 @@ Esse repositório contém um exemplo de como utilizar pinos de input e de output
 
 ## Descrição do cube e hardware
 
-| Pino | Configuração | Função |
-|:---  |:---          |:---    |
-| PA5  | GPIO Output  | Acender um LED |
-| PC13 | GPIO Innput  | Ler estado de um botão |
+| Pino | Nucleo | Configuração          | Função                   |
+|:---: |:---:   |:---                   |:---                      |
+| PB6  | D10    | GPIO Input (Pull-up)  | Ler o estado de um botão |
+| PA5  | D13    | GPIO Output           | Acender um LED           |
+
